@@ -1,0 +1,35 @@
+.collapsebtn{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(57, 75, 238);
+    border: none;
+    margin-left: 30px;
+}
+
+.collapsebtn:hover{
+    background-color: rgb(46, 60, 189);
+}
+
+.collapsebtn:active{
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+
+.content {
+    margin-left: 30px;
+    margin-top: 15px;
+   
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    transition-duration: 2s;
+    max-width: 500px;
+}
+
+.copy{
+    margin-top: 15px;
+    margin-left: 530px;
+}
